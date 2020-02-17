@@ -1,0 +1,109 @@
+@import'_reset.scss';
+@import"_main.scss";
+@import'_mixin.scss';
+
+header{
+    position: relative;
+        .jumbotron_bg{
+            background-image: url('https://upload.cc/i1/2020/02/14/bRO8nT.png');
+            background-position: center center;
+            background-size: cover;
+            height: 560px;
+            .header_navbar{
+                height: 80px;
+                background:rgba(0,0,0,0.3);
+                top:20px;
+                margin: -60px -30px;
+                ul{
+                    float:right;
+                   right:50px;
+                    li{
+                        float: left;
+                        padding: 30px;
+                        font-weight: bold;
+                        font-size: 16px;
+                         a{
+                            color: white;
+                        }
+                        :hover{
+                       color: $font-color;
+                   }
+                    }
+                }
+            }
+            .img{
+                padding: 20px;
+                }
+            h1{
+                padding-top: 50px;
+                color: $font-color;
+                font-weight: bold;
+            }
+            .btn-success{
+                background-color:$font-color !important ;
+            }
+            
+        }
+}
+//content開始
+.container-content{
+    .text-success{
+        color: $font-color ;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .con-a{
+        float: right;
+        border-width: 2px;
+        color: $font-color;
+        border-color:$font-color ;
+    }
+    .card-img{
+        background-position: center;
+        background-size: 10px;
+    }
+    .box-shadow{
+        box-shadow:0 3px 5px rgba(0,0,0,0.3)
+    }
+    h5{
+        font-weight:bold;
+    }
+    p{
+        letter-spacing:3px;
+        line-height: 20px;
+    }
+}
+
+.table{
+    thead{
+        background-color:#ebebeb ;
+    }
+    .text-width{
+        font-weight: bold;
+    }
+    .text-green{
+        color: $font-color;
+    }
+}
+
+.container-table{
+     padding-top: 50px;
+    .btn-success{
+        background-color: $font-color !important;
+        width: 100px;
+    }
+    form{
+        padding: 50px 0;
+    }
+    .h3{
+        font-weight:bold;
+       padding: 50px 0;
+    }
+}
+
+footer{
+    li{
+        display: inline-block;
+    }
+    
+}
